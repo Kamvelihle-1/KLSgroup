@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 :root{
-    background-color: #1c1b1b;
+    background-color: #f9f6f6;
     background-image: url(https://i.postimg.cc/DZqnJLLj/Premium-Photo-Programming-code-abstract-technology-background-of-software-developer-and-computer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,6 +36,11 @@
  }
  header p{
      font-size: larger;
+ }
+ .headnav{
+    flex-direction: row;
+    display: flex;
+
  }
  main {
      width: 100%;
@@ -131,12 +136,7 @@
      cursor: pointer;
      background: #302f37;
  }
- footer{
-     background: rgba(11, 8, 8, 0.818);
-     background-size: cover;
-     /* opacity: .9; */
-     margin: 0 ;
- }
+ 
  footer p{
     
      width: 100%;
@@ -144,6 +144,7 @@
      padding: 15px 0;
      margin-top:0 ;
  }
+
  ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
@@ -221,4 +222,149 @@ body {font-family: Verdana, sans-serif;}
     background-color:#666;
     color: #fff;
 }
+
+
  
+/* css for about flip page */
+.body1 {
+    float: right;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+/* latest changes----logo */
+.logo{
+width :350px;
+opacity:0.30;
+
+}
+.p{
+ display: flexbox;
+    
+}
+/* styling navigation bar */
+.head{
+    text-align: center;
+    position: top; 
+    margin: 50px 90px;
+
+}
+.topnav{
+    overflow:hidden;
+    background-color: #493c46;
+    height: 53px;
+}
+.topnav a{
+    float:left;
+    display:block;
+    color:#0a0101;
+    padding: 14px 16px 14px 16px;
+    text-align: center;
+    font-size:20px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color:#0a0101;
+    color: #fff;
+    font-weight: bold;
+
+}
+/* footer */
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #493c46;
+}
+footer a{
+    font-size:larger ;
+    color: #fff;
+    text-decoration: none;
+}
+.logo2{
+    width:50px;
+    
+}
+
+ 
+ @media screen and (max-width: 900px){
+    :root{
+        background-size: cover;
+    }
+
+    main {
+        display: flexbox;
+        flex-direction: column-reverse;
+        height: inherit;
+        width: fit-content;
+    }
+    footer{
+        width: 100%;
+    }
+    .comments{
+        width: fit-content;
+    }
+    p{
+        width: fit-content;
+        text-align: center;
+    }
+    .icons a{
+        width: fit-content;
+        font-size: smaller;
+    }
+    .logo{
+        width: 100%;
+    }
+    footer p{
+    
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        margin-top:0 ;
+    }
+
+ }
+
+
