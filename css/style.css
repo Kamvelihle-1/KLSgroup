@@ -48,18 +48,23 @@
      padding: 20px; display: flex;
      flex-direction: column;
      gap: 2rem;
+    
+     
      
  }
  .cont .detail-list a{
      color: #ababab;
      margin: 0 15px;
+     
  }
  
  .details{
-     margin-bottom: 1px;
-     flex-basis: 35%;
     
+     flex-basis: 20%;
+    padding: 20px;
+    margin: 20px;
      flex-wrap: wrap;
+     background-color: #302f37;
      /* gap: 2rem;
      justify-content: space-around; */
  
@@ -70,8 +75,9 @@
  
  /* TODO --Make this div move right */
  .comments{
-     flex-basis: 60%;
-     padding: 0;
+     flex-basis: 80%;
+     padding: 20px;
+     margin: 20px;
      width: 50%;
      align-items: center;
      /* TODO -- Shift this to the right */
@@ -92,6 +98,9 @@
  .icons{
      display:flex;
      flex-direction: row;
+     position: relative;
+     top: 90px;
+     
  }
  form input, form textarea{
      width: 90%;
@@ -114,7 +123,7 @@
      font-size: 18px;
      margin-top: 20px;
      cursor: pointer;
-     background: rgb(198, 68, 94);
+     background: #302f37;
  }
  footer{
      background: rgba(11, 8, 8, 0.818);
