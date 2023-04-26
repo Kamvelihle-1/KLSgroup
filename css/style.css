@@ -1,0 +1,132 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    background-color: #1c1b1b;
+    background-image: url(https://i.postimg.cc/DZqnJLLj/Premium-Photo-Programming-code-abstract-technology-background-of-software-developer-and-computer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+ 
+ }
+ /* TODO link a backgound image */
+ header nav ul li{
+    list-style: none;
+    display: inline-block;
+    /* flex-direction: row-reverse; */
+    margin: 15px 15px;
+    /* float: right; */
+ } 
+ header nav ul li a{
+    color: #fff;
+ }
+
+ p{
+     color: white;
+     font-size: larger;
+ }
+ header h1{
+    text-align: center; 
+    color: white;
+ }
+ header p{
+     font-size: larger;
+ }
+ main {
+     width: 100%;
+     background-color: rgba(41, 38, 38, 0.818);
+     
+     padding: 2px;
+     display: flex;
+ }
+ .cont{
+     padding: 20px; display: flex;
+     flex-direction: column;
+     gap: 2rem;
+     
+ }
+ .cont .detail-list a{
+     color: #ababab;
+     margin: 0 15px;
+ }
+ 
+ .details{
+     margin-bottom: 1px;
+     flex-basis: 35%;
+    
+     flex-wrap: wrap;
+     /* gap: 2rem;
+     justify-content: space-around; */
+ 
+ }
+ 
+ 
+ 
+ 
+ /* TODO --Make this div move right */
+ .comments{
+     flex-basis: 60%;
+     padding: 0;
+     width: 50%;
+     align-items: center;
+     /* TODO -- Shift this to the right */
+     float: right;
+     background-image: url(https://i.postimg.cc/qqVc2Q3s/j-Query-Code-Computer-Programming-i-Phone-6-HD-Wallpaper-Check-more-at-https-phonewallp-com-jquery-c.jpg);
+ }
+ /* TODO --Get new icons and link them */
+ .icons a{
+     text-decoration: none;
+     font-size: 30px;
+     /* margin-top: 50px ; */
+     margin-bottom: 0;
+     margin-left: 15px;
+     padding: 0;
+     color: #ababab ;
+     /* display: inline-block; */
+ }
+ .icons{
+     display:flex;
+     flex-direction: row;
+ }
+ form input, form textarea{
+     width: 90%;
+     border: 0;
+     outline: none;
+     background:rgba(222, 219, 219, 0.818);
+     padding: 15px;
+     margin: 15px 0;
+     color: #fff;
+     font-size: 18px;
+     border-radius: 6px;
+ 
+ }
+ form input#name, form input#cel, form input#mail{
+     width: 50%;
+ 
+ }
+ form button{
+     padding: 14px 60px;
+     font-size: 18px;
+     margin-top: 20px;
+     cursor: pointer;
+     background: rgb(198, 68, 94);
+ }
+ footer{
+     background: rgba(11, 8, 8, 0.818);
+     background-size: cover;
+     /* opacity: .9; */
+     margin: 0 ;
+ }
+ footer p{
+    
+     width: 100%;
+     text-align: center;
+     padding: 15px 0;
+     margin-top:0 ;
+ }
+ 
