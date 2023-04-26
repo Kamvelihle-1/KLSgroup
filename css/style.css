@@ -129,4 +129,40 @@
      padding: 15px 0;
      margin-top:0 ;
  }
- 
+ @media screen and (max-width: 900px){
+    :root{
+        background-size: cover;
+    }
+
+    main {
+        display: flexbox;
+        flex-direction: column-reverse;
+        height: inherit;
+        width: fit-content;
+    }
+    footer{
+        width: 100%;
+    }
+    .comments{
+        width: fit-content;
+    }
+    p{
+        width: fit-content;
+        text-align: center;
+    }
+    .icons a{
+        width: fit-content;
+        font-size: smaller;
+    }
+    .logo{
+        width: 100%;
+    }
+    footer p{
+    
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        margin-top:0 ;
+    }
+
+ }
